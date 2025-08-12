@@ -1,0 +1,12 @@
+title: 4th Semester Learning Log
+description: Weekly goals, learning paths, outcomes, and reflections
+author: Your Name
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto
+  social_links:
+    github: yourusername
