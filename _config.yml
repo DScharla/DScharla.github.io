@@ -1,12 +1,17 @@
-title: 4th Semester Learning Log
+﻿title: 4th Semester Learning Log
 description: Weekly goals, learning paths, outcomes, and reflections
 author: Your Name
-theme: minima
+
+# Use remote theme (no gem needed)
+remote_theme: jekyll/minima@v2.5.1
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 minima:
   skin: auto
   social_links:
     github: yourusername
+    linkedin: your-linkedin
