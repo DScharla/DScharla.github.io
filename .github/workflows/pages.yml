@@ -26,10 +26,13 @@ jobs:
           bundler-cache: true
       - name: Install and Build
         run: |
-          gem uninstall jekyll-sass-converter -aIx || true
-          gem install jekyll-sass-converter -v 3.0.0
-          gem install jekyll jekyll-seo-tag jekyll-feed jekyll-remote-theme -v 0.4.3
-          jekyll build -d _site
+            gem uninstall jekyll-sass-converter -aIx || true
+            gem install jekyll-sass-converter -v 3.0.0
+            gem install jekyll -v 4.4.1
+            gem install jekyll-seo-tag -v 2.8.0
+            gem install jekyll-feed -v 0.17.0
+            gem install jekyll-remote-theme -v 0.4.3
+            jekyll build -d _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
